@@ -14,9 +14,9 @@
         <p>O primeiro passo, é preencher esse formulário de inscrição<object data="" type=""></object></p>
     </header>
 
-    <form action=""></form>
+    <form action="">
     <fieldset>
-        <div id="fieldset">
+        <div class="fieldset">
         <legend>Informações do Formulário</legend>
 
         <div class="input">
@@ -44,12 +44,53 @@
             <select id="categoria">
                 <option value="live">Ao Vivo</option>
                 <option value="podcast">Podcast</option>
-                <option value="mentoria">Mentoria</option>
+                <option value="mentoring">Mentoria</option>
             </select>
         </div>
         </div>
-
     </fieldset>
+
+    <fieldset>
+        <div class="fieldset">
+        <legend>Privacidade</legend>
+
+        <div class="input">
+            <label for="email">Email do Administrador<span>(Digite um email válido)</span></div>/label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="input">
+            <label for="senha">Senha de acesso para os participantes<span>(Mínimo 8 caracteres)</span></label>
+            <input type="passeword" id="senha">
+        </div>
+        </div>
+    </fieldset>
+
+    <fieldset>
+       <div class="fieldset">
+        <legend>Dia e hora</legend>
+
+        <div id="ladolado">
+        <div class="input">
+            <label for="data">Data</label>
+            <input type="date" id="data">
+        </div>
+
+        <div class="input">
+            <label for="inicio">Das</label>
+            <input type="time" id="inicio">
+        </div>
+
+        <div class="input">
+             <label for="fim">Até</label>
+             <input type="time" id="fim">
+        </div>
+       </div>
+
+       </div>
+    </fieldset>
+    
+    </form>
     </div>
 </body>
 </html>
